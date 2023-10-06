@@ -202,5 +202,11 @@
             <path d="M24 2l-24 11.25 7.67 2.367 11.83-9.242-8.998 10.116 0.007 0.002-0.009-0.002v5.509l4.301-4.182 5.449 1.682 3.75-17.5z"></path>
     </symbol>
 
+    <!-- hamburger menu icon -->
+    <symbol id="icon-menu-hamburger" viewBox="0 0 35 24">
+        <title>menu-hamburger</title>
+           <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2727" d="M1.47 21.865h32.224M1.47 11.711h32.224M1.47 1.558h32.224"></path>
+    </symbol>
+
     </def>
 </svg>
