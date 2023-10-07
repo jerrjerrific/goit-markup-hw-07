@@ -45,6 +45,15 @@ a {
   color: inherit;
 }
 
+.body-medium {
+  color: rgba(67, 68, 85, 1);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
 .data-modal,
 .advantages-icon,
 .wawd-images {
@@ -133,3 +142,39 @@ header {
   color: rgba(255, 255, 255, 1);
   border: 0;
 }
+
+/* End of Hero Styling */
+
+/* Start of Advantages Styling */
+.advantages {
+  text-align: center;
+}
+
+.wawd-advantages {
+  margin: 96px 16px;
+}
+
+.advantages h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(46, 47, 66, 1);
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.advantages p {
+  margin: 0px;
+}
+
+.advantages li {
+  margin-bottom: 72px;
+}
+
+.advantages li:last-child {
+  margin-bottom: 0px;
+}
+
+/* End of Advantages Styling */

@@ -23,19 +23,43 @@
 
   <body>
     <header>
-      <p class="header-sitename">
-        <a href="index.html"><span class="header-span">WEB</span>STUDIO</a>
-      </p>
+      <ul class="mobile-header">
+        <li><a href="index.html" class="header-sitename"
+        ><span class="header-span">WEB</span>STUDIO</a
+      ></li>
+      <li><svg class="icon-mobile-menu">
+        <use
+          href="images/icons.svg#icon-menu-hamburger"
+          width="32px"
+          height="22px"
+        ></use>
+      </svg>
+      </li>
+
       <nav>
         <ul class="header-nav">
-          <li><a href="index.html" rel="Home Page">Studio</a></li>
-          <li><a href="portfolio.html" rel="Portfolio">Portfolio</a></li>
-          <li><a href="#Contacts">Contacts</a></li>
+          <li>
+            <a href="index.html" rel="Home Page" class="page-nav head-link"
+              >Studio</a
+            >
+          </li>
+          <li>
+            <a href="portfolio.html" rel="Portfolio" class="page-nav head-link"
+              >Portfolio</a
+            >
+          </li>
+          <li><a href="#Contacts" class="page-nav head-link">Contacts</a></li>
         </ul>
       </nav>
       <ul class="header-contact">
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="head-link"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a href="tel:+110001111111" class="head-link">+11 (000) 111-11-11</a>
+        </li>
       </ul>
     </header>
 
