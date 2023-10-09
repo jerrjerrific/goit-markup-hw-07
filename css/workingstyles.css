@@ -217,6 +217,8 @@ header {
 .ot-container:hover,
 .ot-container:focus {
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-team-list h3 {
@@ -258,6 +260,57 @@ header {
 
 .ot-icons:hover {
   background-color: rgba(64, 75, 191, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* End of Our Team Styling */
+
+/* Start of Customers Styling */
+.customers-header {
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+
+.customers-icon {
+  width: 428px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.customers-icon li {
+  display: inline-flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.clients-icon {
+  background-color: inherit;
+  display: inline-flex;
+  width: 190px;
+  height: 88px;
+  padding: 16px 40px;
+  justify-content: center;
+  margin-left: 16px;
+  fill: rgba(142, 143, 153, 1);
+  border: 1px solid rgba(142, 143, 153, 1);
+  border-radius: 4px;
+}
+
+.customers-icon li:nth-of-type(2n + 1) {
+  margin-bottom: 72px;
+}
+
+.customers-icon li:last-child {
+  margin-bottom: 96px;
+}
+
+.clients-icon:hover,
+.clients-icon:focus {
+  cursor: pointer;
+  border-color: rgba(64, 75, 191, 1);
+  fill: rgba(64, 75, 191, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+/* End of Customers Styling */
