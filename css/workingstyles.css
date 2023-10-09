@@ -38,6 +38,16 @@ button {
   line-height: 24px;
   letter-spacing: 0.04em;
   text-align: center;
+  background-color: rgba(77, 90, 229, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+button:hover,
+button:focus {
+  background-color: rgba(64, 75, 191, 1);
+  color: rgba(255, 255, 255, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 a {
@@ -46,12 +56,10 @@ a {
 }
 
 .body-medium {
-  color: rgba(67, 68, 85, 1);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
-  text-align: left;
 }
 
 .data-modal,
@@ -138,8 +146,6 @@ header {
   border-radius: 4px;
   gap: 10px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background-color: rgba(77, 90, 229, 1);
-  color: rgba(255, 255, 255, 1);
   border: 0;
 }
 
@@ -276,6 +282,7 @@ header {
   width: 428px;
   display: flex;
   flex-wrap: wrap;
+  margin: 0px;
 }
 
 .customers-icon li {
@@ -287,7 +294,7 @@ header {
 .clients-icon {
   background-color: inherit;
   display: inline-flex;
-  width: 190px;
+  width: 188px;
   height: 88px;
   padding: 16px 40px;
   justify-content: center;
@@ -314,3 +321,131 @@ header {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* End of Customers Styling */
+
+/* Start of Footer Styling */
+footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+  color: var(--CLOUD, #f4f4fd);
+  margin: 0px;
+  padding: 97.5px 0px 96px 0px;
+}
+
+.footer-col1 {
+  display: block;
+  margin: 0px;
+  text-align: center;
+  padding: 0px 80px 0px;
+}
+
+.footer-sitename {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+}
+
+.footer-span {
+  color: rgba(77, 90, 229, 1);
+}
+
+.footer-text {
+  text-align: left;
+  margin-top: 17.5px;
+}
+
+.footer-col2 {
+  margin: 0px;
+  padding: 72px 110px 0px 110px;
+  text-align: center;
+}
+
+.footer-icons-list {
+  text-align: left;
+  margin: 0;
+  display: inline-flex;
+}
+
+.footer-icons li {
+  background-color: rgba(77, 90, 229, 1);
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0px;
+  margin-right: 16px;
+}
+
+.footer-icons li:hover,
+.footer-icons li:focus {
+  background-color: rgba(49, 208, 170, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icons li:last-child {
+  margin-right: 0px;
+}
+
+.footer-social-icons {
+  fill: rgba(244, 244, 253, 1);
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-col3 {
+  margin: 0px;
+  padding: 72px 15px 0px 15px;
+  text-align: center;
+}
+
+.footer-input {
+  width: 396px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding-left: 16px;
+  margin-top: 16px;
+}
+
+.subscribe-button {
+  margin-top: 16px;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: rgba(77, 90, 229, 1);
+  color: var(--WHITE, #fff);
+  text-align: center;
+  letter-spacing: 0.04em;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  gap: 16px;
+  border-width: 0px;
+  height: 40px;
+}
+
+.subButtonIcon {
+  display: inline-flex;
+  margin: 0px;
+}
+
+.footer-sub-icon {
+  width: 24px;
+  height: 24px;
+  stroke: rgba(244, 244, 253, 1);
+  fill: rgba(244, 244, 253, 1);
+  box-shadow: none;
+  align-items: center;
+  margin-left: 24px;
+}
+/* End of Footer Styling */
