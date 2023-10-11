@@ -1,3 +1,4 @@
+/* Principal styling @ 428px for Mobile */
 /* Start of General Styling */
 body {
   font-family: Roboto;
@@ -40,6 +41,7 @@ button {
   text-align: center;
   background-color: rgba(77, 90, 229, 1);
   color: rgba(255, 255, 255, 1);
+  cursor: pointer;
 }
 
 button:hover,
@@ -70,13 +72,6 @@ a {
 /* End of General Styling */
 
 /* Start of Header Styling */
-/* temp */
-.header-nav,
-.header-contact {
-  display: none;
-  visibility: hidden;
-}
-
 header {
   width: inherit;
   height: 70px;
@@ -113,7 +108,6 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 /* End of Header Styling */
 
 /* Start of Hero Styling */
@@ -599,3 +593,12 @@ footer {
 }
 
 /* End of Modal Styling */
+
+/* Start of Menu Styling */
+.icon-mobile-menu {
+  cursor: pointer;
+}
+
+.menu-container {
+  visibility: hidden;
+}
