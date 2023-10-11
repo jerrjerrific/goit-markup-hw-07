@@ -366,6 +366,10 @@ footer {
   display: inline-flex;
 }
 
+.footer-socials {
+  margin-bottom: 16px;
+}
+
 .footer-icons li {
   background-color: rgba(77, 90, 229, 1);
   width: 40px;
