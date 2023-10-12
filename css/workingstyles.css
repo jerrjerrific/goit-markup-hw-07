@@ -602,3 +602,37 @@ footer {
 .menu-container {
   visibility: hidden;
 }
+
+/* Menu Styling Incomplete */
+
+/* Start of Portfolio Styling */
+.portfolio-filter {
+  margin: 48px 0px 48px 16px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-filter button {
+  background-color: rgba(244, 244, 253, 1);
+  border: 1px solid rgba(231, 233, 252, 1);
+  color: rgba(77, 90, 229, 1);
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-right: 24px;
+  margin-bottom: 16px;
+}
+
+.portfolio-filter button::after {
+  margin-bottom: none;
+}
+
+.portfolio-filter button:hover {
+  background-color: rgba(64, 75, 191, 1);
+  color: rgba(255, 255, 255, 1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.portfolio-images {
+  margin-left: 16px;
+}
