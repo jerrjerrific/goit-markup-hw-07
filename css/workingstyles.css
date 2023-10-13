@@ -599,8 +599,10 @@ footer {
   cursor: pointer;
 }
 
-.menu-container {
-  visibility: hidden;
+@media screen and (max-width: 428px) {
+  .menu-container {
+    visibility: hidden;
+  }
 }
 
 /* Menu Styling Incomplete */
