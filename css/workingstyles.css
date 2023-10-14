@@ -124,7 +124,7 @@ header {
   background-blend-mode: darken;
 }
 
-.hero h1 {
+h1 {
   margin: 0 auto;
   font-size: 36px;
   font-weight: 700;
@@ -725,5 +725,13 @@ footer {
 
   .header-contact li {
     margin-top: 16px;
+  }
+
+  .hero {
+    height: 436px;
+  }
+
+  h1 {
+    padding: 112px 136px 36px 136px;
   }
 }
