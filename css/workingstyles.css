@@ -638,3 +638,92 @@ footer {
 .portfolio-images {
   margin-left: 16px;
 }
+
+/* Media Changes */
+
+@media only screen and (min-width: 429px) {
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+
+  header {
+    width: inherit;
+    height: 72px;
+    display: flex;
+  }
+
+  nav {
+    margin: 0px;
+  }
+
+  .icon-mobile-menu {
+    display: none;
+  }
+
+  .close-icon-container {
+    display: none;
+  }
+
+  .menu-content {
+    display: inline-flex;
+    margin: 0px;
+  }
+
+  .header-nav {
+    display: inline-flex;
+  }
+
+  .header-nav li {
+    margin-right: 40px;
+  }
+
+  .header-nav li:last-child {
+    margin-right: 0px;
+  }
+
+  header .head-link:hover,
+  header .head-link:focus {
+    color: #404bbf;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  header .page-nav:hover,
+  header .page-nav:focus {
+    padding-bottom: 20px;
+    border-bottom: 4px solid #404bbf;
+  }
+}
+
+@media only screen and (min-width: 429px) and (max-width: 768px) {
+  body {
+    width: 768px;
+  }
+
+  .header-nav {
+    margin-left: 120px;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+
+  .header-contact {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    margin: 0 0 0 121px;
+    text-align: left;
+  }
+
+  .header-contact li {
+    margin-top: 16px;
+  }
+}
