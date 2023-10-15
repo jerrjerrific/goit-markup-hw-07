@@ -165,16 +165,18 @@ h1 {
   margin-bottom: 8px;
 }
 
-.advantages p {
-  margin: 0px;
-}
+@media screen and (max-width: 428px) {
+  .advantages p {
+    margin: 0px;
+  }
 
-.advantages li {
-  margin-bottom: 72px;
-}
+  .advantages li {
+    margin-bottom: 72px;
+  }
 
-.advantages li:last-child {
-  margin-bottom: 0px;
+  .advantages li:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 /* End of Advantages Styling */
@@ -815,5 +817,32 @@ footer {
 
   h1 {
     padding: 112px 136px 36px 136px;
+  }
+
+  .wawd-advantages ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .wawd-advantages li {
+    width: 356px;
+    display: inline-block;
+    margin-right: 24px;
+    margin-bottom: 72px;
+  }
+
+  .wawd-advantages li:nth-of-type(2n) {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+
+  .wawd-advantages li:nth-of-type(3n) {
+    margin-bottom: 0px;
+  }
+
+  .advantages-content {
+    margin: 8px 0 0 0;
+    width: 100%;
   }
 }
