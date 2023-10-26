@@ -815,6 +815,38 @@ footer {
     border: 1px solid rgba(142, 143, 153, 1);
     border-radius: 4px;
   }
+
+  footer ul {
+    align-self: start;
+  }
+
+  .footer-col1,
+  .footer-col3 {
+    padding: 0px;
+    width: 264px;
+    text-align: left;
+  }
+
+  .footer-col2 {
+    padding: 0px;
+    text-align: left;
+  }
+
+  .footer-col3 {
+    height: 24px;
+  }
+
+  .footer-input {
+    width: 264px;
+  }
+
+  .footer-subscribe {
+    position: absolute;
+  }
+
+  .subscribe-button {
+    margin-left: 24px;
+  }
 }
 
 @media only screen and (min-width: 429px) and (max-width: 768px) {
@@ -898,5 +930,16 @@ footer {
 
   .customers-icon li:nth-child(3n) {
     margin-right: 0px;
+  }
+
+  footer {
+    height: 456px;
+    padding: 97.5px 0px 96px 108px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-col2 {
+    margin-left: 24px;
   }
 }
