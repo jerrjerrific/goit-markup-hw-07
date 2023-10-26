@@ -276,7 +276,6 @@ h1 {
 }
 
 .customers-icon {
-  width: inherit;
   display: flex;
   flex-wrap: wrap;
   margin: 0px;
@@ -295,13 +294,16 @@ h1 {
   height: 88px;
   padding: 16px 40px;
   justify-content: center;
-  margin-left: 16px;
   fill: rgba(142, 143, 153, 1);
   border: 1px solid rgba(142, 143, 153, 1);
   border-radius: 4px;
 }
 
 @media screen and (max-width: 428px) {
+  .clients-icon {
+    margin-left: 16px;
+  }
+
   .customers-icon li:nth-of-type(2n + 1) {
     margin-bottom: 72px;
   }
@@ -795,20 +797,11 @@ footer {
     margin-right: 24px;
   }
 
-  .customers-icon {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
   .customers-icon li {
+    margin-right: 24px;
     display: flex;
-    flex-wrap: nowrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
   }
 
   .clients-icon {
@@ -818,7 +811,6 @@ footer {
     height: 86px;
     padding: 16px 32px;
     justify-content: center;
-    margin: 0px 24px 0px 0px;
     fill: rgba(142, 143, 153, 1);
     border: 1px solid rgba(142, 143, 153, 1);
     border-radius: 4px;
@@ -894,5 +886,17 @@ footer {
 
   .our-team-list {
     padding-left: 108px;
+  }
+
+  .customers-icon {
+    margin: 0 108px 24px 108px;
+  }
+
+  .customers-icon li {
+    margin-bottom: 72px;
+  }
+
+  .customers-icon li:nth-child(3n) {
+    margin-right: 0px;
   }
 }
