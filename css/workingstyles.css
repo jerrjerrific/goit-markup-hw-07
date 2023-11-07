@@ -847,6 +847,49 @@ footer {
   .subscribe-button {
     margin-left: 24px;
   }
+
+  .portfolio-filter {
+    justify-content: center;
+  }
+
+  .portfolio-filter button {
+    margin-bottom: 0px;
+    padding: 12px 24px;
+  }
+
+  .portfolio-images li {
+    width: 356px;
+    height: 420px;
+    margin-right: 24px;
+  }
+
+  .portfolio-box-img {
+    height: 300px;
+  }
+
+  .portfolio-images img {
+    width: 356px;
+    height: 300px;
+  }
+
+  .portfolio-images h3,
+  .portfolio-images p {
+    padding: 0px;
+  }
+
+  .portfolio-box-content {
+    margin: 32px 0px;
+    padding-left: 16px;
+  }
+
+  .portfolio-box-content p {
+    margin-top: 8px;
+  }
+
+  .overlay p {
+    width: 356px;
+    padding: 40px 32px 0px 32px;
+  }
 }
 
 @media only screen and (min-width: 429px) and (max-width: 768px) {
@@ -941,5 +984,13 @@ footer {
 
   .footer-col2 {
     margin-left: 24px;
+  }
+
+  .portfolio-images li {
+    margin-bottom: 72px;
+  }
+
+  .portfolio-images li:nth-of-type(2n) {
+    margin-right: 0px;
   }
 }
